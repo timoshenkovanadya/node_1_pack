@@ -3,6 +3,7 @@
   "author": "Nadzeya Amialchuk",
   "description": "reverse polish notation calculator",
   "version": "1.0.0",
+  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/timoshenkovanadya/node_1_pack.git"
