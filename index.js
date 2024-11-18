@@ -1,5 +1,5 @@
 function reversePolishCalculator(string) {
-    console.log('Hello! This is calculator of reverse polish notation version 1.0.0')
+    console.log('Hello! This is calculator of reverse polish notation version 0.0.0')
   if (typeof string !== "string") {
     console.log("an argument should be a string");
   }
