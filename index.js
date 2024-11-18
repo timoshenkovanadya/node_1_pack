@@ -1,5 +1,5 @@
 function reversePolishCalculator(string) {
-    console.log('Hello! This is calculator of reverse polish notation version 0.0.0')
+    console.log('Hello! This is calculator of reverse polish notation version 0.0.1')
   if (typeof string !== "string") {
     console.log("an argument should be a string");
   }
@@ -25,7 +25,7 @@ function reversePolishCalculator(string) {
       }
     }
   });
-  return stack.pop();
+  return stack[0];
 
   function checkIsOperator(symbol) {
     return "+-*".includes(symbol);
